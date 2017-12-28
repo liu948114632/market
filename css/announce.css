@@ -1,0 +1,14 @@
+.announce{margin-bottom: 20px;margin-top: 20px;}
+.announce .content p{height:24px;line-height:24px;font-size:12px;color:#444;width:380px;}
+.announce .content p span.time{height:24px;line-height:24px;font-size:12px;color:#999;}
+.announce .content p a:hover{color: #B69531 !important;;}
+.announce .content p a.c_red{color:#ff1919;font-weight: bold;}
+.announce .item{width:380px;}
+.announce .item.last{margin-right:0px;}
+.announce .seek_more{float: right;}
+.announce .seek_more a:hover{color:#02b5ff;}
+.announce .last_news{position:relative;height:50px;line-height: 50px;}
+.announce .market_news{position:relative;height:50px;line-height: 50px;}
+.announce .official_news{position:relative;height:50px;line-height: 50px;}
+.announce span.title{position:relative;margin-top:20px;height:50px;font-size: 16px;color:#333;font-weight: bold;}
+.announce .title:hover{color: #B69531}

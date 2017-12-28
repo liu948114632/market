@@ -1,0 +1,73 @@
+/*
+	2015-04-25 author:yujie
+*/
+/* 新手帮助开始 */
+body{background:white;}
+.center_page{overflow: visible}
+.guide_nav{height:50px;line-height:50px;}
+.guide_right{padding:0px 30px 0px 30px;}
+/* 新手帮助结束 */
+/* 左边导航开始 */
+/*.guide_left{position:relative; width: 200px;float:left;margin-bottom:0px;color:#333; height: auto; background-color: white}*/
+.guide_left{position:relative;width:200px;border:1px solid #ddd;margin-bottom:40px;color:#333;background-color: white;}
+.icon{background:url(../images/account/icon.png) no-repeat;}
+.guide_left li{cursor:pointer;height:50px;line-height:50px;}
+/*.guide_left li{border-right:1px solid #ddd;cursor:pointer;height:50px;line-height:50px;}*/
+/*.guide_left li{border-top:1px solid #ddd;}*/
+.guide_left a{display:block;height:40px;}
+.guide_left li:hover{background:#e9e9e9;}
+.guide_left li.cur{background:white;border-top:1px solid #ddd;border-bottom:1px solid #ddd;border-right:0px;border-left:5px solid #08a3d7;}
+.guide_left li.cur span{color:#08a3d7;}
+.guide_left li.cur i{display: block}
+.guide_left li.cur .iconfont{color:#08a3d7;}
+
+/* 左边导航结束 */
+/* 右边开始 */
+/*.guide_right{background:#fff;line-height:25px;margin-bottom:0px;width:70%;float:right;border:1px solid #ddd;border-width:1px 1px 1px 0px;padding:0px 40px;}*/
+.guide_right{min-height: 600px; margin-left:30px;background:#fff;margin-bottom:40px;color:#333;font-size:14px;width: 905px;border:1px solid #ddd;border-width:1px 1px 1px 1px;line-height: 25px}
+.guide_right .title{height:50px;line-height:50px;font-size: 22px; font-weight: 900; color: #000000; margin-top: 0.5em}
+.guide_right .content{padding:10px 0px;line-height: 40px}
+.guide_right .content .list{height:40px;line-height:40px;}
+.guide_right .content .list .iconfont{font-size:12px;}
+.guide_right .content .list a{color: black}
+.guide_right .content .list span:hover{text-decoration: underline;}
+
+/*.guide_right .content .list:hover{background:#f1f1f1;}*/
+
+
+/* 右边结束 */
+
+/* 左边导航栏子li元素*/
+.show {display: block}
+.hidden {display: none}
+
+/*左移*/
+.leftMove{text-align: left; text-indent: 2.5em}
+
+/* page */
+.page { width:auto; height:26px; padding:5px 0 10px; text-align: center; float:right; font-size:12px;}
+.page li{  padding:2px 2px 0px; float:left;line-height:20px;}
+.page li a,.pagel li a:hover,.page .current_ss{ border:1px solid #ccc; padding:2px 7px 0px; float:left; text-decoration:none; color:#000;}
+.page li a:hover,.page .current_ss{ background:#0096e0; color:#fff;}
+.page .page-jump .txt{width: 30px;height: 20px;line-height:20px;border:1px solid #7E9DB9; ime-mode:disabled;text-align:center; vertical-align:middle; }
+.page .page-jump .btn{height: 22px;line-height:18px;width: 45px;text-align:center;*vertical-align:middle;}
+
+.articleIndex .iconfont{font-size: 7px}
+.articleIndex a{width: 95%; font-size: 1.1em; text-align: left; text-indent: 1em; display: block; overflow:hidden; text-overflow: ellipsis;white-space:nowrap;}
+.articleIndex a:hover{text-decoration: underline}
+.articleIndex i{width: 20%; text-align: right; margin-top: .1em}
+
+.selectedArticle{color: blue}
+
+.guide_left .articleIndex{background-color: #f7f7f7}
+/*左侧分页*/
+.guide_left .articleIndex .leftPaging {text-align: center; text-indent: 10em; color: #08A3D7;}
+
+/*左侧文章类型菜单下的文章标题*/
+.guide_left .articleIndex a{font-size: 0.95em; text-align: left; text-indent: 3em}
+.guide_left .articleIndex a:hover{text-decoration: underline}
+.guide_left .articleIndex .cur{color: #08A3D7}
+
+/*文章内容*/
+.guide_right .content a{color: #006699}
+.guide_right .content a:hover{text-decoration: underline}

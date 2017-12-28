@@ -1,0 +1,66 @@
+/*
+	2015-04-21 author:yujie
+*/
+/*适配*/
+.carousel{ position: relative; height: 420px;}
+/* 权益交易大图开始 */
+
+.center_page{overflow:visible;}
+.rights_img_show{background:url("/static/images/equality.jpg") no-repeat;overflow:hidden; position: absolute;  left: 0;  right: 0;  width: 100%;  height: 100%;  z-index: 1;  background-position: 50% 50%;}
+.rights_img_show .center_page{position:relative;}
+.rights_img_show a{display:block;color:#fff;}
+.rights_img_show .item_1{background:url(../images/coin_trade/word.png) no-repeat 1px -91px;position:absolute;top:90px;left:130px;width:222px;height:60px;}
+.rights_img_show .item_2{width:210px;height:250px;position:absolute;top:57px;left:700px;}
+.rights_img_show .item_3{position:absolute;top:260px;left:260px;}
+.rights_img_show .item_3 p{border:2px solid #fff;width:170px;border-radius:10px;height:45px;line-height:45px;text-align:center;color:#fff;}
+.rights_img_show .item_2 p{color:#fff;line-height:40px;background:url(../images/coin_trade/word.png) no-repeat 0px 0px;width:220px;height:40px;margin:16px 0;}
+/* 权益交易大图结束 */
+/* 币币交易大图开始 */
+.coin_img_show {background:url("/static/images/coinbanner.png") no-repeat;overflow:hidden;position: absolute;  left: 0;  right: 0;  width: 100%;  height: 100%;  z-index: 1;  background-position: 50% 50%;}
+.img_show a{display:block;color:#fff;}
+.coin_img_show .item1{height:50px;width:350px;margin:0 auto;margin-top:50px;}
+.coin_img_show .item1 div{width:133px;background:url(../images/coin_trade/word.png) no-repeat;height:50px;}
+.coin_img_show .item1 div.main{background-position:2px 6px;}
+.coin_img_show .item1 div.other{background-position:10px -40px;}
+.coin_img_show .item2{height:45px;width:750px;margin:50px auto;margin-top:50px;}
+.coin_img_show .item3{height:45px;width:412px;margin:333px auto 0;}
+.coin_img_show p{border-radius:10px;height:45px;line-height:45px;text-align:center;color:#fff;}
+.coin_img_show .item2 p{width:337px;background:#ee3531;/* background:#fc7a28; */}
+.coin_img_show .item3 p{border:2px solid #fff;margin-right: -17px; width: 157px; }
+.show_light:hover{box-shadow:0px 0px 10px #fff;}
+/* 大图结束 */
+/* 币三板开始 */
+.coin_wrapper{margin:40px auto 0px;}
+.coin_title{height:40px;}
+.coin_title ul li{width:170px;height:40px;cursor:pointer;position:relative;z-index:3;}
+.coin_title ul li.cur{height: 41px;background: #fff;border:1px solid #ddd;margin-top:-5px;border-top:5px solid #08a3d7;color:#08a3d7;border-bottom:0px;}
+.coin_list li{border:1px solid #ddd;box-shadow:5px 5px 5px #ddd;cursor: auto;}
+/* .coin_list .item{text-align:center;height:50px;line-height:50px;color:#444;font-size:14px;}
+.coin_list .item:nth-child(even){background:#f5f5f5;}
+.coin_list .item .coinname{width:100px;text-align:left;padding-left:5px;}
+.coin_list .item .item_leap{width:149px;}
+.coin_list .item .item_leap .iconfont{line-height:48px;}
+.coin_list .item_fir{height:50px;line-height:50px;font-size:16px;color:#000;}
+.coin_list .item .item_leap a{width:70px;height:30px;line-height:30px;color:#fff;border-radius:5px;margin:10px auto;display:table;}
+.coin_list .item .item_leap .i{background:url(../images/zgc.png) no-repeat;width:32px;height:32px;margin-top:9px;}
+
+ */
+.coin_list .item{text-align:center;height:40px;line-height:40px;color:#333;font-size:12px; cursor: pointer; border-bottom: 1px dashed #EBEBEB}
+.coin_list .item:last-of-type{border-bottom: none}
+.coin_list #dealList .item:hover,.coin_list #dealList1 .item:hover,.coin_list #dealList2 .item:hover{background:#EBEBEB;}
+.coin_list #dealList .item,.coin_list #dealList1 .item,.coin_list #dealList2 .item{font-size: 12px}
+.coin_list .item img{margin:10px 0px 0px 5px;}
+.coin_list .item .coinname{width:80px;text-align:left;padding-left:5px;}
+.coin_list .item .item_leap{width:110px;font-family: tahoma,Microsoft YaHei,Arial,Helvetica,sans-serif;}
+.coin_list .item .item_leap .iconfont{line-height:48px;font-weight: 100;font-size: 5px;}
+.coin_list .item .icon{width:20px;height:20px;margin:15px 0 0 5px;background-repeat:no-repeat;}
+.coin_list .item_fir{color:#000;font-weight: 600;}
+.coin_list .item_fir .item_leap .iconfont{line-height: 24px;width: 15px;height: 7px; font-size: 5px;}
+.coin_list .item .item_leap a{width:70px;height:30px;line-height:30px;color:#fff;border-radius:5px;margin:5px auto;display:table;}
+/* 币主板 */
+/* .coin_list li.main .item{height:100px;line-height:100px;} */
+/* .coin_list li.main .item_fir{height:50px;line-height:50px;}
+.coin_list li.main .item_leap .iconfont{line-height:96px;}
+.coin_list li.main .item_leap .i{margin-top:33px;}
+.coin_list li.main .item_leap a{margin-top:34px;} */
+/* 币三板结束 */

@@ -1,0 +1,255 @@
+/*
+	2015-04-22 author:yujie
+	个人账户所有css
+*/
+.account_nav{height:50px;line-height:50px;}
+.center_page{overflow: visible}
+.account_nav .c_blue:hover{text-decoration:underline;}
+/* 左边导航开始 */
+.account_left{color:#333;/*position:relative;*/width:200px;margin-bottom:40px;border:1px solid #ddd;min-height: 703px;}
+.icon{background:url(../images/account/icon.png) no-repeat;}
+.account_left dl dt,.account_left dl dd{background: #FFF;/*border-right:1px solid #ddd;*/cursor:pointer;/* height:70px;line-height:70px; */height:50px;line-height:50px;}
+.account_left dl dt .icon{/* width:50px;height:50px; */width:40px;height:40px;margin:5px 0 0 25px;}
+.account_left dl dd .icon{/* width:40px;height:40px; */width:30px;height:30px;margin:10px 0 0 45px;}
+.account_left dl dt{border-top:1px solid #ddd;}
+.account_left dl a{display:block;height:70px;}
+.account_left dl dd:hover{background:#e9e9e9;}
+.account_left .icon_1{background-position:-197px 2px;}
+.account_left .icon_1_1{background-position:-379px -10px;}
+.account_left .icon_1_2{background-position:-299px -10px;}
+.account_left .icon_1_3{background-position:-379px -10px;}
+.account_left .icon_1_4{background-position:-299px -10px;}
+.account_left .icon_1_5{background-position:-299px -50px;}
+.account_left .icon_1_6{background-position:-379px -50px;}
+.account_left .icon_1_7{background-position:-379px -130px;}
+.account_left .icon_1_8{background-position:-299px -210px;}
+.account_left .icon_2{background-position:-99px 2px;}
+.account_left .icon_2_1{background-position:-299px -90px;}
+.account_left .icon_2_2{background-position:-379px -90px;}
+.account_left .icon_2_3{background-position:-299px -130px;}
+.account_left .icon_2_4{background-position:-379px -130px;}
+.account_left .icon_3{background-position:0px 0px;}
+.account_left .icon_3_1{background-position:-299px -170px;}
+.account_left .icon_3_2{background-position:-379px -170px;}
+.account_left .icon_3_3{background-position:-299px -210px;}
+/*菜单居中*/
+.account_left dd a span{text-align: center; width: 80px; display: block; margin-left: auto; margin-right: auto;}
+/* 选中效果 */
+.account_left dt.cur .icon_1{background-position:-247px 2px;}
+.account_left dd.cur .icon_1_1{background-position:-419px -10px;}
+.account_left dd.cur .icon_1_2{background-position:-339px -10px;}
+.account_left dd.cur .icon_1_3{background-position:-419px -10px;}
+.account_left dd.cur .icon_1_4{background-position:-339px -10px;}
+.account_left dd.cur .icon_1_5{background-position:-339px -50px;}
+.account_left dd.cur .icon_1_6{background-position:-419px -50px;}
+.account_left dd.cur .icon_1_7{background-position:-419px -130px;}
+.account_left dd.cur .icon_1_8{background-position:-339px -210px;}
+.account_left dt.cur .icon_2{background-position:-149px 2px;}
+.account_left dd.cur .icon_2_1{background-position:-339px -90px;}
+.account_left dd.cur .icon_2_2{background-position:-419px -90px;}
+.account_left dd.cur .icon_2_3{background-position:-339px -130px;}
+.account_left dd.cur .icon_2_4{background-position:-419px -130px;}
+.account_left dt.cur .icon_3{background-position:-50px 0px;}
+.account_left dd.cur .icon_3_1{background-position:-339px -170px;}
+.account_left dd.cur .icon_3_2{background-position:-419px -170px;}
+.account_left dd.cur .icon_3_3{background-position:-339px -210px;}
+.account_left dt.cur{border-bottom:1px solid #ddd;background:#fff;border-right:0px;border-left:5px solid #08a3d7;}
+.account_left dt:first-child{border-top: 0}
+.account_left dt.cur a{background-color: #f7f7f7}
+.account_left dt.cur span{color:#08a3d7;}
+.account_left dt.cur .iconfont{display:block;}
+.account_left dd.cur span{color:#08a3d7;}
+/* 左边导航结束 */
+/* 财务中心开始 */
+.account_right{margin-left:40px;background:#fff;margin-bottom:40px;color:#333;font-size:14px;width:956px;border:1px solid #ddd;border-width:1px 1px 1px 1px;min-height: 703px;}
+h1,h2{height:50px;line-height:50px;font-size:18px;color:#666;}
+.finance_wrapper .section{height:100px;line-height:100px;width:234px;font-size:14px;text-align:center;}
+.finance_wrapper .section .icon_1{width:70px;height:70px;background-position:18px -66px; margin:15px 0 0 20px;}
+.finance_wrapper .section .icon_2{background-position:-385px -207px;margin:30px 0 0 40px;width:40px;height:40px;}
+.finance_wrapper .coin_acccount a.trade{width:70px;height:30px;line-height:30px;color:#fff;border-radius:5px;margin:10px auto;}
+.finance_wrapper .coin_acccount a{display:inline-block;}
+.finance_wrapper .coin_acccount a.operation:hover{text-decoration:underline;}
+.finance_wrapper .coin_acccount .item{height:50px;line-height:50px;}
+.finance_wrapper .coin_acccount p{text-align:center;height:50px;width:173px;}
+.finance_wrapper .coin_acccount .coin_img{margin:14px 0px 7px 20px;}
+.finance_wrapper .coin_acccount .coin_name{width:105px;text-align:left;}
+.finance_wrapper .coin_acccount .item:first-child{background:inherit!important;}
+.finance_wrapper .coin_acccount .item:nth-child(even){background:#f5f5f5;}
+.finance_wrapper .coin_acccount .item:hover{background:#d9d9d9;}
+.finance_wrapper .coin_acccount .fir{background:#fff;border-bottom:1px solid #ddd;}
+.finance_wrapper .safe_center ul li{cursor: auto;}
+/* 财务中心结束 */
+/* 人民币充值开始 */
+.account_right .title li a{display:block;}
+.account_right .title li a:hover{text-decoration:none;}
+.account_right .title ul{background:#fafafa;}
+.account_right .title li{border-top:2px solid #fafafa;border-bottom:1px solid #C9BDAF;width:238px;text-align:center;height:50px;line-height:50px;}
+.account_right .title li:first-child {border-left: 0!important;}
+.account_right .title li:last-child {border-right: 0!important;}
+.account_right .title li.li_separator{width: 0px;}
+.account_right .title li.li_separator:after{content: '';border-left: 2px dotted #CDCDCD;}
+.account_right .title li.cur+li:after{content: '';border-left: 0px;}
+.account_right .title li.cur{background:#fff;border-left:2px solid #08a3d7;border-top:2px solid #08a3d7;border-right:2px solid #08a3d7;border-bottom:1px solid #FFF;}
+
+.tm_account{padding:20px 0;}
+.tm_account p{margin-top:10px;height:44px;line-height:40px;font-size:12px;}
+.tm_account input{height:40px;padding-left:5px;width:190px;}
+.tm_account select{height:40px;width:200px;}
+.tm_account span.fir{width:200px;text-align:right;}
+.tm_account span.last{line-height:20px;width:300px;}
+.tm_account p.tm_info{text-align:center;}
+.tm_account .tm_confirm{height:40px;line-height:40px;margin-top:20px;margin-left:200px;text-align:center;color:#fff;background:#0096e0;display:block;border-radius:3px;width:199px;}
+.tm_account .tm_confirm:hover{text-decoration:none;background:#009fee;}
+.tm_account .tm_money_info{margin-top:-2px;background:#f2fafe;height:40px;width:195px;line-height:40px;border:1px solid #ccc;border-top:none;margin-left:200px;}
+.float_window{width:556px;position:fixed;z-index:10;font-size:14px;border-radius:5px;background:#fff;box-shadow:1px 1px 10px #000;}
+.float_window .tm_title{height:45px;line-height:45px;margin:0 20px;border-bottom:2px solid #ccc;font-size:16px;font-weight:bold;}
+.float_window .tm_warning{font-size:16px;background:#f2fafe;width:517px;height:45px;line-height:45px;margin:10px 20px;}
+.float_window .tm_content p{height:25px;line-height:25px;margin-bottom:10px;}
+.float_window .tm_content p span.fir{width:125px;text-align:right;padding-right:5px;}
+.float_window .tm_content p.tm_center{text-align:center;font-size:12px;color:#666;}
+.float_window .tm_confirm_again{height:30px;line-height:30px;text-align:center;color:#fff;background:#0096e0;display:table;margin:10px auto;border-radius:3px;width:90px;}
+.float_window .tm_confirm_again:hover{text-decoration:none;background:#009fee;}
+
+/* 人民币充值结束 */
+/* account中心记录表通用样式 */
+.Tentitle{height:80px;line-height:80px;border-top:1px solid #ddd;border-bottom:1px solid #ddd;margin: 0 40px;}
+.Tenbody{font-size:12px;padding:0px 40px 20px;}
+.Tenbody table{width:100%;margin-bottom:10px;}
+.Tenbody td,.Tenbody th{text-align:center;}
+.Tenbody tr{border-bottom:1px solid #ddd;height:40px;line-height:40px;}
+.Tenbody tr{height:27px;line-height:20px;}
+.Tenbody tr:first-child{background:inherit!important;}
+.Tenbody tr:nth-child(even){background:#f1f1f1;}
+.Tenbody tr:hover{background:#d9d9d9;}
+.Tenbody tr{border-bottom:1px solid #ddd;height:40px;line-height:40px;}
+/*.Tenbody tr:nth-child(even){background:#f1f1f1;}*/
+.account_right .Tenbody  a:hover{text-decoration:underline;}
+/* 人民币提现开始 */
+.content{position:relative;}
+.content p.c_title{height:40px;line-height:40px;background:#e5e5e5;}
+.content .submit_form{padding:10px 0px;line-height:30px;}
+.content .submit_form:after{content:"";display:block;clear:both;}
+.content .submit_form input{width:100px;height:30px;}
+.content .submit_form a{margin-right:30px;padding:0 10px;height:30px;line-height:30px;border-radius:5px;display:table;}
+.content .info{margin-bottom:10px;}
+.content .info p{line-height:30px;}
+.content p select{height: 32px;width: auto; max-width: 190px}
+#add_bank_card:hover{color:#08a3d7;}
+/* 人民币提现结束 */
+/* 虚拟币充值开始 */
+.coin_wrapper{position:relative;height:40px;line-height:40px;margin:0 40px;border:1px solid #ddd;}
+.coin_wrapper .coin_img{margin:10px;}
+.coin_wrapper .coin_container{border-right:1px solid #ddd;height:40px;width:200px;}
+.coin_wrapper .coinname{text-align:left;width:80px;}
+.coin_wrapper .coin_sel_box{width:376px;border:1px solid #ddd;border-top:3px solid #08a3d7;position:absolute;top:40px;left:0px;}
+.coin_wrapper .coin_sel_box ul li{float:left;}
+.coin_wrapper .coin_sel_box ul li a{display:block;height:40px;}
+.content p.address{height:85px;line-height:85px;width:660px;border:1px solid #08a3d7;text-align:center;}
+.content p.c_title_other{height:40px;line-height:40px;margin-left:40px;}
+.coin_wrapper .erweima{position:absolute;top:61px;left:703px;}
+.account_right .coin_container .iconfont{font-size:15px;}
+/* 虚拟币充值结束 */
+/* 虚拟币提现开始 */
+.content .submit_form p{margin-top:10px;line-height:34px;}
+.content .submit_form p:after{content:"";display:block;clear:both;}
+.content .submit_form p span.fir{text-align:right;width:100px;}
+.content .submit_form p input{width:200px;height:30px;}
+.content .submit_form .submit{margin:10px 0 0 104px;width:168px;}
+.content .widthdraw_box{padding:20px 100px;}
+.content .warning{position:absolute;top:110px;left:530px;line-height:25px;width:300px;height:70px;}
+/* 虚拟币提现结束 */
+/* 账单明细开始 */
+.content .sel_box{height:30px;line-height:40px;margin:10px 0 10px 40px;width:120px;}
+/* 账单明细结束 */
+/* 委托管理开始 */
+.content .status{width:70px;height:30px;line-height:30px;border-radius:3px;display:inline-block;color:#fff;}
+.content .status:hover{text-decoration:none;}
+/* 委托管理结束 */
+/* 安全中心开始 */
+.content .item{width:430px;height:125px;margin:30px 0 0 40px;}
+.content .item .iconfont{font-size:40px;margin:40px 20px;}
+.content .item .text{width:200px;padding:20px 0;font-size:40px;}
+.content .item .text .t_title{line-height:30px;}
+.content .item .text .t_content{line-height:20px;}
+.content .item .safe_status{text-align:center;line-height:30px;}
+.fill_right{padding-bottom:40px;min-height:662px;}
+/* .content .item .safe_status .s_status{margin-bottom:40px;} */
+/* 安全中心结束 */
+/* 个人信息开始 */
+.content_wrapper .content{/*padding:20px 0;*/}
+.content_wrapper .content p{line-height:34px;margin-top:10px;}
+.content_wrapper .content p:after{content:"";display:block;clear:both;}
+.content_wrapper .content input{height:30px;width:200px;line-height:30px;}
+.content_wrapper .content p span.fir{width:100px;text-align:right;margin-right:10px;}
+.content_wrapper .content p a{padding:0px 20px;border-radius:3px;text-align:center;line-height:30px;}
+.content_wrapper a:hover{text-decoration:none;}
+/*.content_wrapper .info_content{margin-left:72px;}*/
+.content_wrapper .info_content div .iconfont{font-size:30px;}
+.content_wrapper .info_content select{height:30px;}
+/* 个人信息结束 */
+/* 发起提问开始 */
+/* .content_wrapper select{width:210px;height:30px;}
+.content_wrapper textarea{width:202px;height:60px;line-height:20px;}
+.content_wrapper .confirm{margin:20px 111px;display:table;padding:0px 20px;border-radius:3px;text-align:center;line-height:30px;} */
+/* 发起提问结束 */
+/* 问题列表开始 */
+/* .account_questions .content,.account_newscenter .content{height:450px;} */
+.account_questions .title{position:relative;}
+.account_questions .send_message{position:absolute;right:100px;top:0px;height:50px;line-height:50px;width:100px;}
+.account_questions .send_message span.cur{color:#08a3d7;}
+.account_questions .send_message .icon{width:30px;height:30px;margin:10px 5px 0 0px;background-position:-299px -170px;}
+.account_questions .send_message .icon.cur{background-position:-339px -170px;}
+
+/*问题列表*/
+.account_right .account_questions .title li{cursor:pointer;color:#666;width:317px;text-align:center;height:50px;line-height:50px;}
+.account_right .account_questions .title li.cur{background:#fff;/* box-shadow:inset 0px 0px 10px #08a3d7; */}
+.account_right .account_questions .title li:first-child {border-left: 0!important;}
+.account_right .account_questions .title li:last-child {border-right: 0!important;}
+.account_right .account_questions .title li.li_separator{width: 0px;}
+.account_right .account_questions .title li.li_separator:after{content: '';border-left: 2px dotted #CDCDCD;}
+.account_right .account_questions .title li.cur+li:after{content: '';border-left: 0px;}
+
+/* 问题列表结束 */
+/* 推广中心开始 */
+#tuigang {height: 870px;background-image: url(../images/intro/tuiguang2.jpg)}
+#wenben {float: right;width: 478px;margin-right: 50px;}
+#lianjie {margin-top: 70px;}
+.textbox {height: 61px;width: 443px;-webkit-transition: all 0s 0s;-moz-transition: all 0s 0s;-ms-transition: all 0s 0s;-o-transition: all 0s 0s;transition: all 0s 0s;background: url(../images/intro/yuanjiao.png) no-repeat;background-color: #1E9EDF;padding-top: 10px;padding-right: 0px;padding-bottom: 0px;padding-left: 20px;font-size: 14px;line-height: 17px;}
+.DIVIDE {height: 36px;width: 161px;background-color: #f7ab00;color: #FFF;font-weight: bold;margin-top: 12px;margin-left: 145px;border-top-style: none;border-right-style: none;border-bottom-style: none;border-left-style: none;}
+#jieshao {margin-top: 40px;color: #FFF;font-size: 12px;line-height: 30px;margin-left: 20px;}
+#fenxiang {margin-left: 280px;margin-top: 40px;float: right;width: 340px;}
+.fen {height: 85px;text-align: center;font-size: 10px;color: #FFF;float: left;margin-right: 30px;}
+.fen h1 {font-size: 11px;font-weight: normal;padding: 0px;margin-top: 5px;margin-right: auto;margin-bottom: 0px;margin-left: auto;}
+.account_spreadcenter{padding-bottom: 0px;}
+.account_spreadcenter a:focus {outline: none;}
+.account_spreadcenter a {blr: expression(this.onFocus = this.blur () );border-top-style: none;border-right-style: none;border-bottom-style: none;border-left-style: none;}
+.account_spreadcenter .share_content{position: absolute;bottom: 30px;width: 958px;margin: 0 auto;}
+.account_spreadcenter .share_content li{cursor: auto;}
+.account_spreadcenter .share_content li .copy_btn{display:inline-block;width: 100px; height: 30px;line-height: 30px;border-radius: 5px;-moz-border-radius: 5px;-webkit-border-radius: 5px;}
+.account_spreadcenter .share_content li .share_intro{line-height: 20px;padding: 0px 120px;text-align: left;}
+.account_spreadcenter .share_content li .share_box{padding-right: 120px;}
+/* 推广中心结束 */
+
+/* 消息中心开始 */
+.account_newscenter{position:relative;}
+.news_operation{position:absolute;top:5px;right:10px;width:185px;height:50px;line-height:50px;}
+.news_operation a{padding:5px 10px;border:1px solid #ddd;border-radius:2px;background:#e6e6e6;margin: 0 auto;}
+/* 消息中心结束 */
+
+textarea,select,input{
+    font-size: 12px;
+    border:1px solid #ccc;
+    -webkit-transition: border linear .2s,box-shadow linear .2s;
+    -moz-transition: border linear .2s,box-shadow linear .2s;
+    -o-transition: border linear .2s,box-shadow linear .2s;
+    -ms-transition: border linear .2s,box-shadow linear .2s;
+    transition: border linear .2s,box-shadow linear .2s;
+}
+select:focus,textarea:focus,input:focus,option{
+    border-color: rgb(21 ,131, 251);
+    -webkit-box-shadow:inset 0 0px 1px rgb(21 ,131, 251),0 0 1px rgb(21 ,131, 251);
+    box-shadow:inset 0 0px 1px rgb(21 ,131, 251),0 0 1px rgb(21 ,131, 251);
+    outline:0;
+    border-width:1px;
+    outline:thin dotted 9
+}

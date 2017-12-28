@@ -1,0 +1,66 @@
+body{background:#fafafa;}
+.banner .carousel{ position: relative; height: 420px;}
+.banner .carousel .item{position: absolute;  left: 0;  right: 0;  width: 100%;  height: 100%;  z-index: 1;  background-position: 50% 50%;}
+.banner ul{width:720px;height:200px;position:absolute;right:0px;top:50px;}
+.banner ul li a{float:left;padding:15px 40px;color:#fff;font-size:22px;margin-left:20px;border-radius:3px;text-decoration: none}
+.banner ul li a:hover{background:#fed136;}
+.banner ul .cur{background:#fed136;cursor: text}
+.events_wrapper{position: relative;}
+.events_wrapper .hanging{width: 200px; margin: 50px auto 0}
+.center_page{overflow:hidden;}
+.events_wrapper .content{ margin: 120px auto 0; }
+.events_wrapper .content .item{position:relative;margin-bottom:90px;height:180px;}
+.events_wrapper .item img{position: absolute;top:0px;left:50%;margin-left: -90px;}
+.events_wrapper .item p{text-align:right;margin-top:65px;width:460px;height:105px;padding:5px 10px;top:0px;font-size:14px;line-height:1.5;}
+.events_wrapper .item .text{position:absolute;left:0px;}
+.events_wrapper .tip:before{content: "";width: 0px;height: 90px;border: 2px solid #f1f1f1;display: block;position: absolute;top: -90px;left: 50%;margin-left: -2px;}
+.events_wrapper .item .time{width:155px;height:65px;float: right;}
+.events_wrapper .double .text{left:716px;}
+.events_wrapper .double .text p{text-align:left;}
+.events_wrapper .double .text .time{float:left;}
+.loading{width:190px;height:70px;line-height:70px;margin-left:-95px;position:relative;left:50%;font-size:16px;}
+.loading .loader{background:url(/static/images/aboutzhg/events/loader.gif) no-repeat;width:24px;height:24px;margin:24px;}
+.nomore{width:220px;height:188px;position:relative;left:50%;margin-left:-110px;background:url(/static/images/aboutzhg/events/nomore.png) no-repeat;}
+.time1{background:url(/static/images/aboutzhg/events/time_01.png) no-repeat;}
+.time2{background:url(/static/images/aboutzhg/events/time_02.png) no-repeat;}
+.time3{background:url(/static/images/aboutzhg/events/time_03.png) no-repeat;}
+.time4{background:url(/static/images/aboutzhg/events/time_04.png) no-repeat;}
+.time5{background:url(/static/images/aboutzhg/events/time_05.png) no-repeat;}
+.time6{background:url(/static/images/aboutzhg/events/time_06.png) no-repeat;}
+.time7{background:url(/static/images/aboutzhg/events/time_07.png) no-repeat;}
+.time8{background:url(/static/images/aboutzhg/events/time_08.png) no-repeat;}
+.time9{background:url(/static/images/aboutzhg/events/time_09.png) no-repeat;}
+.time10{background:url(/static/images/aboutzhg/events/time_10.png) no-repeat;}
+.time11{background:url(/static/images/aboutzhg/events/time_11.png) no-repeat;}
+.time12{background:url(/static/images/aboutzhg/events/time_12.png) no-repeat;}
+.time13{background:url(/static/images/aboutzhg/events/time_13.png) no-repeat;}
+.time14{background:url(/static/images/aboutzhg/events/time_14.png) no-repeat;}
+.time15{background:url(/static/images/aboutzhg/events/time_15.png) no-repeat;}
+.time16{background:url(/static/images/aboutzhg/events/time_16.png) no-repeat;}
+.time17{background:url(/static/images/aboutzhg/events/time_17.png) no-repeat;}
+.time18{background:url(/static/images/aboutzhg/events/time_18.png) no-repeat;}
+.time19{background:url(/static/images/aboutzhg/events/time_19.png) no-repeat;}
+.time20{background:url(/static/images/aboutzhg/events/time_20.png) no-repeat;}
+.time21{background:url(/static/images/aboutzhg/events/time_21.png) no-repeat;}
+.time22{background:url(/static/images/aboutzhg/events/time_22.png) no-repeat;}
+.time23{background:url(/static/images/aboutzhg/events/time_23.png) no-repeat;}
+.time24{background:url(/static/images/aboutzhg/events/time_24.png) no-repeat;}
+.time25{background:url(/static/images/aboutzhg/events/time_25.png) no-repeat;}
+.time26{background:url(/static/images/aboutzhg/events/time_26.png) no-repeat;}
+.time27{background:url(/static/images/aboutzhg/events/time_27.png) no-repeat;}
+.time28{background:url(/static/images/aboutzhg/events/time_28.png) no-repeat;}
+.time29{background:url(/static/images/aboutzhg/events/time_29.png) no-repeat;}
+.time30{background:url(/static/images/aboutzhg/events/time_30.png) no-repeat;}
+.time31{background:url(/static/images/aboutzhg/events/time_31.png) no-repeat;}
+.time32{background:url(/static/images/aboutzhg/events/time_32.png) no-repeat;}
+.time33{background:url(/static/images/aboutzhg/events/time_33.png) no-repeat;}
+
+
+
+
+
+
+
+
+
+

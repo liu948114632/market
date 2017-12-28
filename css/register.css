@@ -1,0 +1,35 @@
+/*
+	2015-04-25 author:yujie
+*/
+/*风险提示开始*/
+.register_wrapper,.registe_risk{width:800px;color:#333;margin:40px auto;border:1px solid #ddd;padding:20px 50px;}
+.registe_risk h1{height:100px;line-height:100px;}
+.registe_risk p.text{line-height:35px;}
+.registe_risk p.fir{line-height:25px;}
+.registe_risk .confirm{width:400px;border-radius:5px;height:50px;line-height:50px;display:table;margin:50px auto;}
+/*风险提示结束*/
+/*注册页面开始*/
+.register_wrapper ul.fir{width:400px;height:50px;margin:60px auto;}
+.register_wrapper ul.fir li{line-height:50px;}
+.register_wrapper ul.fir li.cur{border-bottom:5px solid #08a3d7;}
+.register_wrapper ul.sec,.register_wrapper .sec{width:900px;margin-left:182px;padding-bottom:40px; }
+.register_wrapper .item p{height:40px;line-height:40px;}
+.register_wrapper .item p span.fir{width:100px;text-align:right;}
+.register_wrapper .item p select{border-radius:2px 0px 0px 2px;width:85px;height:42px;}
+.register_wrapper .item p input{border-radius:2px;width:230px;height:40px;}
+.register_wrapper .item p input.fir{border-radius:0 2px 2px 0;width:145px;border-width:1px 1px 1px 0px;}
+.register_wrapper .item p .time{line-height:40px;padding:0px 20px;border:1px solid #ddd;border-radius:3px;}
+.register_wrapper .item p .code{font-size:12px;padding:10px;border:1px solid #ccc;border-radius:3px;line-height:1;background:#e6e6e6;}
+.register_wrapper .item p .code:hover{background:#e5e5e5;}
+.register_wrapper .item p .code:hover{background:#999;}
+.register_wrapper .item .message_code{margin-left:80px;height:40px;border-radius:15px;}
+.register_wrapper .confirm{color:#fff;margin-left:80px;width:290px;border-radius:5px;height:50px;line-height:50px;}
+.register_wrapper .protocol{margin-left:80px;text-align:left;}
+/*注册页面结束*/
+/* 实名认证页面开始 */
+.register_wrapper .title{height:100px;line-height:100px;text-align:center;}
+.register_wrapper .title .iconfont{font-size:40px;}
+.register_wrapper .infomation,.register_wrapper .opertation{padding-bottom:10px;padding-left:315px;}
+.register_wrapper .infomation p{height:30px;line-height:30px;}
+.register_wrapper .infomation a{height:30px;line-height:30px;width:80px;border-radius:5px;margin:10px 0;}
+/* 实名认证页面结束 */

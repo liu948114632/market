@@ -1,0 +1,152 @@
+/*
+	2015-04-20 author:yujie
+*/
+/*头部开始*/
+.header{width: 100%;}
+.header .head{background:#f8f8f8;}
+.header .info{max-width:1200px;height:30px;margin:0 auto;line-height:30px;}
+.header .info .phone{width:210px;height:30px;}
+.header .info .phone span{margin-right:10px;height:30px;}
+
+.header .info .qq_line:before{content: '\e628';font-family: iconfont;font-style: normal;font-size: 19px;float: left;margin-left: 5px; color: grey; line-height: 24px}
+
+.header .info .weixin_wrapper{position:relative;}
+.header .info .weixin_wrapper .weixin{position:absolute;top:30px;left:0px;z-index: 1}
+.header .info .login_reg{height:30px;padding-right: 0px;}
+.header .info .login_reg .login,.reg{width:70px;height:30px;}
+.header .info .login_reg a{padding:0 5px;}
+.header .info .login_reg span{padding-left:5px;}
+.header .information{width: 20px;height: 20px;border-radius: 10px;text-align: center;line-height: 18px;position: absolute;bottom:14px;left: 97px;z-index: 5;}
+.header .flow{background:#fff;width:100%;box-shadow:1px 2px 5px #E4E4E4;}
+.header .nav{color:#333;font-size:14px;width:1200px;margin:0 auto;height:70px;}
+/*.header .nav .logo{margin-left:-22px;margin-top:5px;}*/
+.header .nav .logo{width:200px;height:70px;}
+.header .nav .logo a{height:70px;line-height:70px;}
+.header .nav .logo a img{margin-top:8px;height:55px;}
+.header .nav .top_nav{margin:0 auto;width:960px;height:70px;line-height:70px;text-align: right;}
+.header .nav .top_nav ul{margin-left: 180px;display: inline-block;}
+.header .nav .top_nav ul li{padding:0px 19px;height:66px;float:left;}
+.header .nav .top_nav ul li a{display:block; text-decoration: none}
+.header .nav .top_nav ul li a span{padding: 6px 6px;}
+.header .nav .top_nav ul li.current span{background-color: #08a3d7;border-radius: 5px;-moz-border-radius:5px;-webkit-border-radius:5px;color: #FFF;}
+.header .nav .top_nav ul li.current a{color:#409eeb;}
+.header .nav .top_nav ul li a span:hover{background-color: #08a3d7;border-radius: 5px;-moz-border-radius:5px;-webkit-border-radius:5px;color: #FFF;}
+.header .logined{position:relative;}
+.header .user_info{border:1px solid transparent;padding: 0 10px;}
+.header .user_info.cur{background:#fff;position:relative;z-index:4;box-shadow:0 -4px 4px #d9d9d9;border:1px solid #d9d9d9;border-bottom:none;}
+.login_reg a:hover{color:#08a3d7;}
+/*禁用选择*/
+.cannot_select{-moz-user-select:none;/*火狐*/-webkit-user-select:none;/*webkit浏览器*/-ms-user-select:none;/*IE10*/-khtml-user-select:none;/*早期浏览器*/user-select:none;  }
+/* 下拉框 */
+.mywallet_list{position:absolute;right:0px;top:30px;background:#fff;box-shadow:0 0 4px #d9d9d9;border:1px solid #d9d9d9;padding:9px 14px 8px;width:406px;z-index:3;}
+.mywallet_list ul{width:195px;}
+.mywallet_list h4{font-weight:normal;margin-bottom:4px;height:30px;line-height:30px;font-size:14px;color:#333}
+.mywallet_list li{text-align:left;height:30px;line-height:30px;font-size:12px;}
+.mywallet_list li em,.price_today_ul em,#profit_list em{float:left;width:26px;height:19px;margin-top:11px;background:url(/images/jubi/coinstyle.png?v=1.44) no-repeat}
+.mywallet_list li strong{float:left;font-weight:normal;color:#333;}
+.mywallet_btn_box{margin-top:11px;border-top:1px dotted #888;padding-top:15px;width:408px}
+.mywallet_btn_box a{float:left;width:80px;height:25px;border:1px solid #08a3d7;margin-right:10px;margin-bottom:10px;color:#08a3d7;background:#fff;line-height:25px;font-size:14px;text-align:center;border-radius:3px;}
+.mywallet_btn_box a:hover{color:#fff;background:#08a3d7;text-decoration:none}
+/*头部结束*/
+/* 警告开始 */
+.warning{background:#f6f6f6;margin-bottom: 35px;margin-top: 35px;}
+.warning .info{height:30px;line-height:30px;font-size:14px;}
+.warning .info .iconfont{height:30px;width:30px;line-height:28px;cursor:pointer;}
+.warning .info .close:hover{color:#fd0202;}
+.warning .text{font-size:13px;/*text-indent:28px;*/color:#999;line-height:20px; clear: both}
+/* 警告结束 */
+/* 友情链接开始 */
+.link{margin-top:20px;margin-bottom: 88px}
+.link .link_content{height:40px;margin-top: 50px; margin-bottom: 60px;text-align: center}
+.link .link_content a{cursor: pointer; margin: 0 22px 0 22px}
+.link .link_content a:first-child{margin: 0 22px 0 0}
+.link .link_content a:last-child{margin:  0 0 0 22px}
+/*.link .link_content ul li{float:left;width:140px;height:40px;margin-left:72px;background:url(../../images/friends.png) no-repeat;}*/
+.link .link_content ul li:first-child{margin-left: 0!important;}
+.link .link_content ul li:last-child{margin-right: 0!important;}
+.link .link_content ul li a{display:block;height:40px;width:140px;}
+/* .link_title{color:#666;width:1200px;border:1px solid #ccc;margin:0 auto;height:0px;}
+.link_title .col{width:400px;border:1px solid #00b4ff;margin:0 auto;}
+.link_title .link_pic{width:172px;height:71px;text-align:center;margin:-29px 507px;background:#fff;} */
+.team{height:40px;margin-top: 50px}
+.team .team_btn{text-align: center;background-color: #08a3d7; width:130px; padding-bottom: 3px; height: 36px;line-height: 36px;margin: auto;}
+.team .team_btn span{color: white; font-size: 26px; font-weight: bold}
+/*.team .team_btn{display:block;float:left;color:#333;margin-left:28px;width: 100px;height: 36px;line-height: 36px;text-align: center;border:2px solid #333;border-radius: 5px;-moz-border-radius: 5px;-webkit-border-radius: 5px;}*/
+/* 友情链接结束 */
+/* 底部开始 */
+.footer{background:#f5f5f5;margin-top: 30px;width: 100%;min-width: 1200px; clear: both}
+.footer .floatline{float: left;  width: 65px;  margin-left: 88px}
+.footer .information {width: 1200px;margin: 0 auto;}
+.footer .help{margin:30px 0px 30px 0px;}
+.footer .help ul li{text-align:left;margin-left:110px;height:45px;line-height:45px;}
+.footer .help ul li.fir{height:40px;line-height:40px;}
+.footer .help ul li a{color:#666;font-size:12px;}
+.footer .help ul li a:hover{text-decoration:underline;}
+.footer .help ul li.fir a:hover{text-decoration:none;}
+.footer .help ul li.fir a{font-size:16px;color:#333;}
+.footer .help ul{float:left;width:270px;border-right:1px solid #ccc;margin-bottom:10px;}
+.footer .help ul li{height:25px;line-height:25px;}
+.footer .help ul.last{border-right:none;}
+.footer .copyright{padding:10px 0;background:#595959;color:#fff;text-align:center;line-height:20px;}
+.footer .tools{position:fixed;top:50%;right:0px;width:45px;height:200px;margin-top:-100px;z-index: 1}
+.footer .tools ul li a{text-decoration: none;}
+.footer .tools li{width:180px;overflow:hidden;cursor:pointer;border-radius:5px 0 0 5px;height:45px;margin:3px 0;background:url("/static/images/index/title.png") no-repeat 7px -201px;background-color:#08a3d7;}
+.footer .tools .weixin img{position: fixed; right: 45px; width: 221px; height: 221px; z-index: 100}
+/* .footer .tools li:hover{background-color:#30c2ff;} */
+.footer .tools ul li .phone{font-size:14px;color:#fff;line-height:45px;margin-left:45px;}
+.footer .tools ul li .info{letter-spacing:3px;color: #fff;padding:5px;line-height:17px;width:45px;margin-left:45px;letter-spacing:5px;font-size: 10px;}
+
+.footer .contact{margin:30px 0px 30px 0px;height: 105px;}
+.footer .contact ul li{cursor: auto;}
+.footer .contact ul li.qq_line{height: 35px;line-height: 25px;}
+.footer .contact ul li.qq_line span{font-size: 14px;margin-left: 20px;float: left;}
+.footer .contact ul li.qq_line:before{content: '\e628';font-family: iconfont;font-style: normal;font-size: 25px;float: left;margin-left: 5px;}
+.footer .contact ul li.phone_line{height: 35px;width:200px;clear: both;}
+.footer .contact ul li.phone_line .phone_num{font-size: 16px;height: 16px;float: left;margin-left: 20px;margin-top: 3px;}
+.footer .contact ul li.phone_line .time{font-size: 10px;height: 10px;line-height: 10px;float: left;margin-left: 20px;margin-top: 5px;}
+.footer .contact ul li.phone_line:before{content: '\e62a';font-family: iconfont;font-style: normal;font-size: 25px;float: left;margin-left: 5px;margin-top: 5px;}
+.footer .contact ul li.sw_line{height: 35px;line-height:35px;}
+.footer .contact ul li.sw_line span{font-size: 14px;margin-left: 15px;margin-bottom: 5px;display: inline-block;width: 200px;
+    text-align: left;}
+.footer .contact ul li.sw_line:before{content: '\e629';font-family: iconfont;font-style: normal;font-size: 30px;margin-left: 5px;margin-top: 5px;}
+/* 底部结束 */
+
+/* 弹出窗开始 */
+/* .float_box{position:fixed;top:0px;left:0px;z-index:10;background:#fff;border-radius:5px;}  */
+.float_box{width: 540px;background:#fff;border-radius:4px;box-shadow:1px 2px 4px #6c6e72;-moz-box-shadow:1px 2px 4px #6c6e72;-webkit-box-shadow:1px 2px 4px #6c6e72; position:fixed;top: 0px;left: 0px;z-index: 1000}
+/* .float_box .f_title{height:40px;line-height:40px;background:#f7fbfd;} */
+.float_box .f_title{background:#f4f4f4;border-bottom:1px solid #e4e4e4; border-radius:4px 4px 0 0; height:46px; line-height:44px;padding:0 15px;}
+.float_box .f_title .iconfont{cursor:pointer;margin-right:10px;}
+.float_box .f_title .iconfont:hover{color:#fd0202;}
+.float_box .f_title:after{content:"";display:block;clear:both;}
+.float_box .f_message{text-align:center;margin:10px;}
+.float_box .f_content{padding:10px 20px;}
+.float_box .f_content textarea{width:202px;height:60px;line-height:20px;}
+.float_box .f_content select{height:30px;width:110px;}
+.float_box .f_content p{line-height:30px;margin-bottom:10px;}
+.float_box .f_content p:after{content:"";display:block;clear:both;}
+.float_box .f_content input{border-radius:2px;height:30px;line-height:30px;width:120px}
+.float_box .f_content span{text-align:right;width:110px;}
+.float_box a.confirm{border-radius:3px;text-align:center;line-height:30px;display:block;margin:20px 109px;width:108px;}
+.float_box .send{display:block;padding:0 10px;}
+#login_box{width:650px;height:400px;} 
+#login_box .f_title{height:40px;line-height:40px;}
+#login_box .f_content span{width:195px;height:40px;}
+#login_box .f_content input{width:210px;height:40px;}
+#login_box .f_content p{height:40px;line-height:40px;margin-bottom:40px;}
+#login_box .f_content p.message{margin-bottom:0px;}
+#login_box .f_content a.confirm{margin-top:0px;height:40px;line-height:40px;width:217px;margin-left:195px;}
+#login_box .opertaion{margin-left:193px;}
+/* 弹出窗结束 */
+
+/* 发起提问弹出框开始 */
+#send_message_box .f_content select{width: auto;}
+#send_message_box .questionButtonblue{display:inline-block;  font-weight:700;  font-size:14px;  color:#fff;  text-align:center;  width:150px;  height:32px;  line-height:32px;  background:#0096e0;  margin-left:180px;  margin-top:30px;  }
+#send_message_box .questionButtonblue:hover{  color:#fff;  text-decoration: none;  background:#0096e0;  }
+
+#verticle_line{border-left:1px solid #ddd;position:absolute;bottom:0px;right:0px;}
+#horizontal_line{border-bottom:1px solid #ddd;}
+.coin_container .iconfont{webkit-transition:0.3s ease all;transition:0.3s ease all;-o-transition:0.3s ease all;-moz-transition:0.3s ease all;-ms-transition:0.3s ease all;}
+.coin_container:hover i{transform:rotateZ(180deg);-webkit-transform:rotateZ(180deg);-moz-transform:rotateZ(180deg);-ms-transform:rotateZ(180deg);-o-transform:rotateZ(180deg)}
+
+.yjt {color: #888;  font-family: tahoma,Microsoft YaHei,Arial,Helvetica,sans-serif; }
